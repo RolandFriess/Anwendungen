@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">CalendarPrivacyFilter</string>
+    <string name="verrauschen">Verrauschen</string>
+    <string name="filtern">Filtern</string>
+    <string name="Blockieren">Blockieren</string>
+    <string name="vertikalFiltern">Vertikalen Filter einstellen</string>
+    <string name="vertFilterAkt">Vertikaler Filter aktiviert</string>
+    <string name="horizontalFilterAkt">Horizontaler Filter aktiviert</string>
+    <string name="horizontalerFilter">Horizontalen Filter einstellen</string>
+    <string name="startzeit">Startzeit</string>
+    <string name="endzeit">Endzeit</string>
+    <string name="Standort">Standort</string>
+    <string name="privatFiltern">Private Termine verbergen</string>
+    <string name="Private_Termine_ver">Geschäftliche Termine verbergen</string>
+    <string name="einstellungen_uebernehmen">Einstellungen übernehmen</string>
+    <string name="horFilterhinzu">Horizontalen Filter hinzufügen</string>
+    <string name="test">Testen</string>
+    <string name="filterSpeichern" />
+    <string name="filterUebernehmen">Filter übernehmen</string>
+    <string name="aktHorizontaleFilter">Liste der aktiven Horizontalen Filter</string>
+</resources>

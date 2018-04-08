@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="roland.CalendarPrivacyFilter.Filtern">
+
+    <CheckBox
+        android:id="@+id/VertikalBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/vertFilterAkt"
+        app:layout_constraintBottom_toTopOf="@+id/horizontalFilter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/vertikalenFilter" />
+
+    <CheckBox
+        android:id="@+id/horizontalBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/horizontalFilterAkt"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/horizontalFilter" />
+
+    <Button
+        android:id="@+id/vertikalenFilter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="vertikalFiltern"
+        android:text="@string/vertikalFiltern"
+        app:layout_constraintBottom_toTopOf="@+id/VertikalBox"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/VertikalBox"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/horizontalFilter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="horizontalFiltern"
+        android:text="@string/horizontalerFilter"
+        app:layout_constraintBottom_toTopOf="@+id/horizontalBox"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/VertikalBox" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="filterubernehmen"
+        android:text="filter Übernehmen"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/horizontalBox" />
+</android.support.constraint.ConstraintLayout>
